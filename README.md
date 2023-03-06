@@ -1,2 +1,2 @@
 # previsao-sistema-cantereira
-Projeto de previsão de reservatórios do sistema Cantereira utilizando métodos de machine learning e ferramentas de visualização de dados
+Projeto referente à disciplina PJI410 - Projeto Integrador em Computação IV da Univesp que visa desenvolver modelos de previsão do volume do sistema Cantereira utilizando métodos de machine learning e ferramentas de visualização de dados.
