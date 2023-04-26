@@ -4,7 +4,7 @@ from prophet import Prophet
 import plotly.express as px
 
 st.title('Previsão de volume do Sistema Cantareira')
-df_SABESP = pd.read_excel('../SABESP-sistemas_produtores.xlsx')
+df_SABESP = pd.read_excel('SABESP-sistemas_produtores.xlsx')
 dfSabesp = df_SABESP.groupby(['Data'], as_index=False).sum(numeric_only=True)
 
 dfProphet = pd.DataFrame()
