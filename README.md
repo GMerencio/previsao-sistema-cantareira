@@ -17,6 +17,7 @@ As principais tecnologias usadas no projeto são:
 Os principais arquivos e diretórios são:
 
 * `streamlit-app.py`: Arquivo de entrada da aplicação Streamlit responsável pela interface de visualização.
+* `plotting_utils.py`: Funções de auxílio para as visualizações de dados.
 * `SABESP-sistemas_produtores.xlsx`: Série histórica contendo os dados dos reservatórios Jaguari-Jacareí, Cachoeira, Atibainha e Paiva Castro.
 * `PI_IV.ipynb`: Notebook Jupyter com análise exploratória e tratamento dos dados.
 * `modelo-prophet`: Diretório contendo o modelo que utiliza o Prophet para prever valores futuros.
