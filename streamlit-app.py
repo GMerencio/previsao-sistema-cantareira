@@ -12,7 +12,17 @@ st.set_page_config(
 	page_title='Previsão de volume do Sistema Cantareira'
 )
 
-# Salvar dataframe em formatos distintos. Valores permitidos para o
+# Definição das páginas da aplicação
+
+show_pages(
+    [
+        Page('streamlit-app.py', 'Página inicial', ':house:'),
+        Page('pages/dados.py', 'Dados', ':bar_chart:'),
+        Page('pages/info-modelo.py', 'Sobre o modelo', ':books:'),
+    ]
+)
+
+# Converter dataframe em formatos distintos. Valores permitidos para o
 # formato: 'csv', 'parquet', 'json'
 
 @st.cache_data
@@ -45,16 +55,6 @@ def carregar_previsaoVolProphet():
 @st.cache_data
 def carregar_previsaoChuvaProphet():
 	return pd.read_pickle('modelo-prophet/previsao-chuva.pkl')
-	
-# Definição das páginas da aplicação
-
-show_pages(
-    [
-        Page('streamlit-app.py', 'Página inicial', ':house:'),
-        Page('pages/dados.py', 'Dados brutos', ':bar_chart:'),
-        Page('pages/info_modelo.py', 'Sobre o modelo', ':books:'),
-    ]
-)
 
 # Formata uma data no esquema dia/mês/ano, recebendo como entrada
 # um objeto pandas.Timestamp
@@ -71,12 +71,37 @@ previsaoVolProphet = carregar_previsaoVolProphet()
 modeloChuvaProphet = carregar_modeloChuvaProphet()
 previsaoChuvaProphet = carregar_previsaoChuvaProphet()
 
+st.markdown('''O objetivo principal deste projeto é desenvolver e disponibilizar um modelo de previsão do volume do Sistema Cantareira. Como objetivo secundário, analisamos também o volume de chuva. 
+
+***Observação***: Recomendamos acessar esta página em um ambiente desktop.
+
+Para saber a fonte dos dados e ter acesso aos dados completos, acesse a página "Dados" pelo menu à esquerda. Para ver as análises feitas e o modelo utilizado, acesse a página "Sobre o modelo".''')
+
+# Instruções
+
+st.header('Instruções')
+st.markdown('''1. Para ampliar um período específico (*zoom*): com o ícone de lupa selecionado, clique e arraste o intervalo desejado.
+
+2. Para retornar ao nível de *zoom* original, clique duas vezes no gráfico ou clique no ícone de casa.
+
+3. Para navegar no gráfico, clique no ícone à direita da lupa e arraste à esquerda ou direita.
+
+4. Você pode selecionar períodos específicos de 1 semana, 1 mês, 6 meses e 1 ano.
+
+5. Você também pode navegar usando o mini-gráfico na parte inferior.''')
+
+# Gráfico de volume
+
 st.header('Volume (em hm³)')
-st.plotly_chart(plot_plotly(modeloVolProphet, previsaoVolProphet, xlabel='Data', ylabel='Volume (hm³)'))
+st.plotly_chart(plot_plotly(modeloVolProphet, previsaoVolProphet, xlabel='Data', ylabel='Volume (hm³)'), use_container_width=True)
+st.caption('''<div style='text-align: center;'>Em preto estão os dados observados, em azul estão os dados previstos pelo modelo. A área azul acima e abaixo dos pontos representa o intervalo de confiança da previsão.</div><br>''', unsafe_allow_html=True)
+
 dadosPrevisaoVol = previsaoVolProphet[['ds', 'yhat', 'yhat_lower', 'yhat_upper']]
 vol_csv = converter_df(dadosPrevisaoVol, 'csv')
 vol_parquet = converter_df(dadosPrevisaoVol, 'parquet')
 vol_json = converter_df(dadosPrevisaoVol, 'json')
+
+st.markdown('''Clique nos botões abaixo para salvar as previsões em arquivo. As colunas `ds`, `yhat`, `yhat_lower` e `yhat_upper` representam, respectivamente, a data, o volume previsto, o limite inferior do intervalo de confiança para a previsão e o limite superior do intervalo de confiança para a previsão. Para obter os valores observados, acesse a página "Dados" pelo menu à esquerda.''')
 
 st.download_button(
 	label="Baixar os dados como .csv",
@@ -99,12 +124,18 @@ st.download_button(
 	mime='application/json'
 )
 
+# Gráfico de chuva
+
 st.header('Chuva (em mm)')
-st.plotly_chart(plot_plotly(modeloChuvaProphet, previsaoChuvaProphet, xlabel='Data', ylabel='Chuva (mm)'))
+st.plotly_chart(plot_plotly(modeloChuvaProphet, previsaoChuvaProphet, xlabel='Data', ylabel='Chuva (mm)'), use_container_width=True)
+st.caption('''<div style='text-align: center;'>Em preto estão os dados observados, em azul estão os dados previstos pelo modelo. A área azul acima e abaixo dos pontos representa o intervalo de confiança da previsão.</div><br>''', unsafe_allow_html=True)
+
 dadosPrevisaoChuva = previsaoVolProphet[['ds', 'yhat', 'yhat_lower', 'yhat_upper']]
 chuva_csv = converter_df(dadosPrevisaoChuva, 'csv')
 chuva_parquet = converter_df(dadosPrevisaoChuva, 'parquet')
 chuva_json = converter_df(dadosPrevisaoChuva, 'json')
+
+st.markdown('''Clique nos botões abaixo para salvar as previsões em arquivo. As colunas `ds`, `yhat`, `yhat_lower` e `yhat_upper` representam, respectivamente, a data, o volume de chuva previsto, o limite inferior do intervalo de confiança para a previsão e o limite superior do intervalo de confiança para a previsão. Para obter os valores observados, acesse a página "Dados" pelo menu à esquerda.''')
 
 st.download_button(
 	label="Baixar os dados como .csv",
