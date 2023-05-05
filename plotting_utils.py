@@ -3,7 +3,6 @@ import numpy as np
 import pandas as pd
 
 # Extraído de: https://github.com/facebook/prophet/blob/main/python/prophet/plot.py
-
 def plot_plotly(m, fcst, uncertainty=True, plot_cap=True, trend=False, changepoints=False, changepoints_threshold=0.01, xlabel='ds', ylabel='y', figsize=(900, 600)):
     """Plot the Prophet forecast with Plotly offline.
     
@@ -51,6 +50,7 @@ def plot_plotly(m, fcst, uncertainty=True, plot_cap=True, trend=False, changepoi
         mode='markers',
         xhoverformat='%d/%m/%Y'
     ))
+    
     # Add lower bound
     if uncertainty and m.uncertainty_samples:
         data.append(go.Scatter(
