@@ -1,5 +1,6 @@
 import plotly.graph_objs as go
 import numpy as np
+import pandas as pd
 
 # Extraído de: https://github.com/facebook/prophet/blob/main/python/prophet/plot.py
 
@@ -40,13 +41,15 @@ def plot_plotly(m, fcst, uncertainty=True, plot_cap=True, trend=False, changepoi
     marker_size = 4
 
     data = []
+    
     # Add actual
     data.append(go.Scattergl(
         name='Observado',
         x=m.history['ds'],
         y=m.history['y'],
         marker=dict(color=actual_color, size=marker_size),
-        mode='markers'
+        mode='markers',
+        xhoverformat='%d/%m/%Y'
     ))
     # Add lower bound
     if uncertainty and m.uncertainty_samples:
@@ -55,7 +58,8 @@ def plot_plotly(m, fcst, uncertainty=True, plot_cap=True, trend=False, changepoi
             y=fcst['yhat_lower'],
             mode='lines',
             line=dict(width=0),
-            hoverinfo='skip'
+            hoverinfo='skip',
+            xhoverformat='%d/%m/%Y'
         ))
     # Add prediction
     data.append(go.Scatter(
@@ -63,6 +67,7 @@ def plot_plotly(m, fcst, uncertainty=True, plot_cap=True, trend=False, changepoi
         x=fcst['ds'],
         y=fcst['yhat'],
         mode='lines',
+        xhoverformat='%d/%m/%Y',
         line=dict(color=prediction_color, width=line_width),
         fillcolor=error_color,
         fill='tonexty' if uncertainty and m.uncertainty_samples else 'none'
@@ -73,6 +78,7 @@ def plot_plotly(m, fcst, uncertainty=True, plot_cap=True, trend=False, changepoi
             x=fcst['ds'],
             y=fcst['yhat_upper'],
             mode='lines',
+            xhoverformat='%d/%m/%Y',
             line=dict(width=0),
             fillcolor=error_color,
             fill='tonexty',
@@ -85,6 +91,7 @@ def plot_plotly(m, fcst, uncertainty=True, plot_cap=True, trend=False, changepoi
             x=fcst['ds'],
             y=fcst['cap'],
             mode='lines',
+            xhoverformat='%d/%m/%Y',
             line=dict(color=cap_color, dash='dash', width=line_width),
         ))
     if m.logistic_floor and 'floor' in fcst and plot_cap:
@@ -93,6 +100,7 @@ def plot_plotly(m, fcst, uncertainty=True, plot_cap=True, trend=False, changepoi
             x=fcst['ds'],
             y=fcst['floor'],
             mode='lines',
+            xhoverformat='%d/%m/%Y',
             line=dict(color=cap_color, dash='dash', width=line_width),
         ))
     # Add trend
@@ -102,6 +110,7 @@ def plot_plotly(m, fcst, uncertainty=True, plot_cap=True, trend=False, changepoi
             x=fcst['ds'],
             y=fcst['trend'],
             mode='lines',
+            xhoverformat='%d/%m/%Y',
             line=dict(color=trend_color, width=line_width),
         ))
     # Add changepoints

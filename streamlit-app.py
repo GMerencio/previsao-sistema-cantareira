@@ -53,8 +53,8 @@ modeloChuvaProphet = carregar_modeloChuvaProphet()
 previsaoChuvaProphet = carregar_previsaoChuvaProphet()
 
 st.header('Volume (em hm³)')
-st.plotly_chart(plot_plotly(modeloVolProphet, previsaoVolProphet))
+st.plotly_chart(plot_plotly(modeloVolProphet, previsaoVolProphet, xlabel='Data', ylabel='Volume (hm³)'))
 #st.write(previsaoVolProphet[['ds', 'yhat', 'yhat_lower', 'yhat_upper']])
 
 st.header('Chuva (em mm)')
-st.plotly_chart(plot_plotly(modeloChuvaProphet, previsaoChuvaProphet))
+st.plotly_chart(plot_plotly(modeloChuvaProphet, previsaoChuvaProphet, xlabel='Data', ylabel='Chuva (mm)'))
