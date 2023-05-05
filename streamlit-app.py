@@ -3,6 +3,13 @@ import streamlit as st
 from prophet import Prophet
 from prophet.serialize import model_from_json
 from plotting_utils import plot_plotly
+from st_pages import Page, show_pages
+
+# Configurações da página
+
+st.set_page_config(
+	page_title='Previsão de volume do Sistema Cantareira'
+)
 
 # Carregar modelos
 
@@ -25,6 +32,16 @@ def carregar_previsaoVolProphet():
 @st.cache_data
 def carregar_previsaoChuvaProphet():
 	return pd.read_pickle('modelo-prophet/previsao-chuva.pkl')
+	
+# Definição das páginas da aplicação
+
+show_pages(
+    [
+        Page('streamlit-app.py', 'Página inicial', ':house:'),
+        Page('pages/dados.py', 'Dados brutos', ':bar_chart:'),
+        Page('pages/info_modelo.py', 'Sobre o modelo', ':books:'),
+    ]
+)
 	
 # Interface
 
