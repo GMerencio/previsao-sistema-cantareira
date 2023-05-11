@@ -56,6 +56,13 @@ def carregar_previsaoVolProphet():
 def carregar_previsaoChuvaProphet():
 	return pd.read_pickle('modelo-prophet/previsao-chuva.pkl')
 
+# Carregar imagens e vídeos
+
+@st.cache_data
+def carregar_tutorial(num_tutorial):
+	tutorial = open(f'static/tutorial{num_tutorial}.mp4', 'rb')
+	return tutorial.read()
+
 # Formata uma data no esquema dia/mês/ano, recebendo como entrada
 # um objeto pandas.Timestamp
 
@@ -79,16 +86,27 @@ Para saber a fonte dos dados e ter acesso aos dados completos, acesse a página 
 
 # Instruções
 
-st.header('Instruções')
-st.markdown('''1. Para ampliar um período específico (*zoom*): com o ícone de lupa selecionado, clique e arraste o intervalo desejado.
+st.header('Instruções') 
 
-2. Para retornar ao nível de *zoom* original, clique duas vezes no gráfico ou clique no ícone de casa.
+coluna_esquerda1, coluna_direita1 = st.columns([1, 3])
+coluna_esquerda1.markdown('''1. Para ampliar um período específico (*zoom*): com o ícone de lupa selecionado, clique e arraste o intervalo desejado.''')
+coluna_direita1.video(carregar_tutorial(1))
 
-3. Para navegar no gráfico, clique no ícone à direita da lupa e arraste à esquerda ou direita.
+coluna_esquerda2, coluna_direita2 = st.columns([1, 3])
+coluna_esquerda2.markdown('''2. Para retornar ao nível de *zoom* original, clique duas vezes no gráfico ou clique no ícone de casa.''')
+coluna_direita2.video(carregar_tutorial(2))
 
-4. Você pode selecionar períodos específicos de 1 semana, 1 mês, 6 meses e 1 ano.
+coluna_esquerda3, coluna_direita3 = st.columns([1, 3])
+coluna_esquerda3.markdown('''3. Para navegar no gráfico, clique no ícone à direita da lupa e arraste à esquerda ou direita.''')
+coluna_direita3.video(carregar_tutorial(3))
 
-5. Você também pode navegar usando o mini-gráfico na parte inferior.''')
+coluna_esquerda4, coluna_direita4 = st.columns([1, 3])
+coluna_esquerda4.markdown('''4. Você pode selecionar períodos específicos de 1 semana, 1 mês, 6 meses e 1 ano.''')
+coluna_direita4.video(carregar_tutorial(4))
+
+coluna_esquerda5, coluna_direita5 = st.columns([1, 3])
+coluna_esquerda5.markdown('''5. Você também pode navegar usando o mini-gráfico na parte inferior.''')
+coluna_direita5.video(carregar_tutorial(5))
 
 # Gráfico de volume
 
