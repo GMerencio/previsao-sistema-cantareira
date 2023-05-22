@@ -111,8 +111,13 @@ coluna_direita5.video(carregar_tutorial(5))
 # Gráfico de volume
 
 st.header('Volume (em hm³)')
-st.plotly_chart(plot_plotly(modeloVolProphet, previsaoVolProphet, xlabel='Data', ylabel='Volume (hm³)'), use_container_width=True)
-st.caption('''<div style='text-align: center;'>Em preto estão os dados observados, em azul estão os dados previstos pelo modelo. A área azul acima e abaixo dos pontos representa o intervalo de confiança da previsão.</div><br>''', unsafe_allow_html=True)
+
+modoCorVol = st.radio('Selecione o modo de cores:', ('Claro', 'Escuro'), horizontal=True, key='modoCorVol')
+print(f'Modo cor selecionado: {modoCorVol}')
+
+st.plotly_chart(plot_plotly(modeloVolProphet, previsaoVolProphet, xlabel='Data', ylabel='Volume (hm³)', colorScheme=modoCorVol), use_container_width=True)
+
+st.caption('''<div style='text-align: center;'>Em preto (ou branco, no modo escuro) estão os dados observados, em azul estão os dados previstos pelo modelo. A área azul acima e abaixo dos pontos representa o intervalo de confiança da previsão.</div><br>''', unsafe_allow_html=True)
 
 dadosPrevisaoVol = previsaoVolProphet[['ds', 'yhat', 'yhat_lower', 'yhat_upper']]
 vol_csv = converter_df(dadosPrevisaoVol, 'csv')
@@ -145,8 +150,12 @@ st.download_button(
 # Gráfico de chuva
 
 st.header('Chuva (em mm)')
-st.plotly_chart(plot_plotly(modeloChuvaProphet, previsaoChuvaProphet, xlabel='Data', ylabel='Chuva (mm)'), use_container_width=True)
-st.caption('''<div style='text-align: center;'>Em preto estão os dados observados, em azul estão os dados previstos pelo modelo. A área azul acima e abaixo dos pontos representa o intervalo de confiança da previsão.</div><br>''', unsafe_allow_html=True)
+
+modoCorChuva = st.radio('Selecione o modo de cores:', ('Claro', 'Escuro'), horizontal=True, key='modoCorChuva')
+
+st.plotly_chart(plot_plotly(modeloChuvaProphet, previsaoChuvaProphet, xlabel='Data', ylabel='Chuva (mm)', colorScheme=modoCorChuva), use_container_width=True)
+
+st.caption('''<div style='text-align: center;'>Em preto (ou branco, no modo escuro) estão os dados observados, em azul estão os dados previstos pelo modelo. A área azul acima e abaixo dos pontos representa o intervalo de confiança da previsão.</div><br>''', unsafe_allow_html=True)
 
 dadosPrevisaoChuva = previsaoVolProphet[['ds', 'yhat', 'yhat_lower', 'yhat_upper']]
 chuva_csv = converter_df(dadosPrevisaoChuva, 'csv')

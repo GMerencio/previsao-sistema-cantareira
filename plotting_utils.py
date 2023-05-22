@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 
 # Extraído de: https://github.com/facebook/prophet/blob/main/python/prophet/plot.py
-def plot_plotly(m, fcst, uncertainty=True, plot_cap=True, trend=False, changepoints=False, changepoints_threshold=0.01, xlabel='ds', ylabel='y', figsize=(900, 600)):
+def plot_plotly(m, fcst, uncertainty=True, plot_cap=True, trend=False, changepoints=False, changepoints_threshold=0.01, xlabel='ds', ylabel='y', figsize=(900, 600), colorScheme='Claro'):
     """Plot the Prophet forecast with Plotly offline.
     
     Plotting in Jupyter Notebook requires initializing plotly.offline.init_notebook_mode():
@@ -19,25 +19,45 @@ def plot_plotly(m, fcst, uncertainty=True, plot_cap=True, trend=False, changepoi
     m: Prophet model.
     fcst: pd.DataFrame output of m.predict.
     uncertainty: Optional boolean to plot uncertainty intervals.
-    plot_cap: Optional boolean indicating if the capacity should be shown
-        in the figure, if available.
-    trend: Optional boolean to plot trend
+    plot_cap: Optional boolean indicating if the capacity should be shown in the figure, if available.
+    trend: Optional boolean to plot trend.
     changepoints: Optional boolean to plot changepoints
     changepoints_threshold: Threshold on trend change magnitude for significance.
-    xlabel: Optional label name on X-axis
-    ylabel: Optional label name on Y-axis
+    xlabel: Optional label name on X-axis.
+    ylabel: Optional label name on Y-axis.
+    figsize: Optional figure size.
+    colorScheme: Optional color scheme ('Claro' or 'Escuro').
     
     Returns
     -------
     A Plotly Figure.
     """
-    prediction_color = '#0072B2'
-    error_color = 'rgba(0, 114, 178, 0.2)'  # '#0072B2' with 0.2 opacity
-    actual_color = 'black'
-    cap_color = 'black'
-    trend_color = '#B23B00'
     line_width = 2
     marker_size = 4
+    
+    if colorScheme == 'Claro':
+    	prediction_color = '#0072B2'
+    	error_color = 'rgba(0, 114, 178, 0.2)'  # '#0072B2' with 0.2 opacity
+    	actual_color = 'black'
+    	cap_color = 'black'
+    	trend_color = '#B23B00'
+    	bg_color = 'white'
+    	txt_color = 'black'
+    	grid_color = '#cfcfcf'
+    	btn_color = 'white'
+    	hover_bg_color = 'white'
+    
+    if colorScheme == 'Escuro':
+    	prediction_color = '#03a3fc'
+    	error_color = 'rgba(3, 163, 252, 0.2)'  # '#03a3fc' with 0.2 opacity
+    	actual_color = 'white'
+    	cap_color = 'white'
+    	trend_color = '#B23B00'
+    	bg_color = 'black'
+    	txt_color = 'white'
+    	grid_color = '#525151'
+    	btn_color = '#4d4d4d'
+    	hover_bg_color = '#4d4d4d'
 
     data = []
     
@@ -131,13 +151,48 @@ def plot_plotly(m, fcst, uncertainty=True, plot_cap=True, trend=False, changepoi
         showlegend=False,
         width=figsize[0],
         height=figsize[1],
+        plot_bgcolor=bg_color,
+        paper_bgcolor=bg_color,
+        font=dict(
+        		color=txt_color,
+        		size=15
+        ),
+        hoverlabel=dict(
+        		bgcolor=hover_bg_color,
+        		font=dict(
+        				color=txt_color
+        		)
+        ),
         yaxis=dict(
-            title=ylabel
+            title=dict(
+            		text=ylabel,
+            		font=dict(
+            				color=txt_color,
+            				size=15
+            		)
+            ),
+            tickfont=dict(
+            		color=txt_color,
+            		size=15
+            ),
+            gridcolor=grid_color
         ),
         xaxis=dict(
-            title=xlabel,
+            title=dict(
+            		text=xlabel,
+            		font=dict(
+            				color=txt_color,
+            				size=15
+            		)
+            ),
+            tickfont=dict(
+            		color=txt_color,
+            		size=15
+            ),
             type='date',
+            gridcolor=grid_color,
             rangeselector=dict(
+            		bgcolor=btn_color,
                 buttons=list([
                     dict(count=7,
                          label='1 semana',
