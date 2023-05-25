@@ -1,0 +1,2405 @@
+<?xml version="1.0"?>
+	<?mso-application progid="Excel.Sheet"?> 
+	<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" 
+	xmlns:o="urn:schemas-microsoft-com:office:office" 
+	xmlns:x="urn:schemas-microsoft-com:office:excel" 
+	xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" 
+	xmlns:html="http://www.w3.org/TR/REC-html40"> 
+	<DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"> 
+	<Version>12.00</Version> 
+	</DocumentProperties> 
+	<ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel"> 
+	<WindowHeight>8130</WindowHeight> 
+	<WindowWidth>15135</WindowWidth> 
+	<WindowTopX>120</WindowTopX> 
+	<WindowTopY>45</WindowTopY> 
+	<ProtectStructure>False</ProtectStructure> 
+	<ProtectWindows>False</ProtectWindows> 
+	</ExcelWorkbook> 
+	<Styles>
+		<Style ss:ID="xls-style-1" ss:Name="xls-style-1">
+			<Alignment ss:Vertical="Bottom" ss:Horizontal="Center"/>
+			<Borders>
+				<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#CACACA"/>
+				<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#CACACA"/>
+				<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#CACACA"/>
+				<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#CACACA"/>
+			</Borders>
+			<Font ss:Color="#767676" />
+			<Interior ss:Color="#F4F4F4" ss:Pattern="Solid"/>
+		</Style>
+		<Style ss:ID="xls-style-2" ss:Name="xls-style-2">
+			<Alignment ss:Vertical="Bottom" ss:Horizontal="Left"/>
+			<Borders>
+				<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#CACACA"/>
+				<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#CACACA"/>
+				<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#CACACA"/>
+				<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#CACACA"/>
+			</Borders>
+			<Font ss:Color="#000000" />
+			<Interior ss:Color="#EDEDED" ss:Pattern="Solid"/>
+			<NumberFormat ss:Format="Short Date"/>
+		</Style>
+		<Style ss:ID="xls-style-3" ss:Name="xls-style-3">
+			<Alignment ss:Vertical="Bottom" ss:Horizontal="Center"/>
+			<Borders>
+				<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#CACACA"/>
+				<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#CACACA"/>
+				<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#CACACA"/>
+				<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#CACACA"/>
+			</Borders>
+			<Font ss:Color="#000000" />
+			<Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+		</Style>
+		<Style ss:ID="xls-style-4" ss:Name="xls-style-4">
+			<Alignment ss:Vertical="Bottom" ss:Horizontal="Center"/>
+			<Borders>
+				<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#CACACA"/>
+				<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#CACACA"/>
+				<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#CACACA"/>
+				<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#CACACA"/>
+			</Borders>
+			<Font ss:Color="#000000" />
+			<Interior ss:Color="#EDEDED" ss:Pattern="Solid"/>
+		</Style>
+	</Styles>
+	<Worksheet ss:Name="Sheet1">
+		<Table>
+			<Column ss:Width="80"/>
+			<Column ss:Width="75"/>
+			<Column ss:Width="85"/>
+			<Column ss:Width="80"/>
+			<Column ss:Width="95"/>
+			<Column ss:Width="95"/>
+			<Column ss:Width="75"/>
+			<Column ss:Width="75"/>
+			<Column ss:Width="85"/>
+			<Column ss:Width="80"/>
+			<Column ss:Width="95"/>
+			<Column ss:Width="95"/>
+			<Column ss:Width="75"/>
+			<Column ss:Width="75"/>
+			<Column ss:Width="85"/>
+			<Column ss:Width="80"/>
+			<Column ss:Width="95"/>
+			<Column ss:Width="95"/>
+			<Column ss:Width="75"/>
+			<Column ss:Width="75"/>
+			<Column ss:Width="85"/>
+			<Column ss:Width="80"/>
+			<Column ss:Width="95"/>
+			<Column ss:Width="95"/>
+			<Column ss:Width="75"/>
+			<Column ss:Width="75"/>
+			<Column ss:Width="85"/>
+			<Column ss:Width="80"/>
+			<Column ss:Width="95"/>
+			<Column ss:Width="75"/>
+			<Column ss:Width="75"/>
+			<Column ss:Width="85"/>
+			<Column ss:Width="80"/>
+			<Column ss:Width="95"/>
+			<Column ss:Width="95"/>
+			<Column ss:Width="75"/>
+			<Column ss:Width="80"/>
+			<Column ss:Width="95"/>
+			<Column ss:Width="95"/>
+			<Row><Cell ss:Index="2" ss:MergeAcross="5" ss:StyleID="xls-style-1"><Data ss:Type="String">Represa Jaguari/Jacareí</Data></Cell><Cell ss:Index="8" ss:MergeAcross="5" ss:StyleID="xls-style-1"><Data ss:Type="String">Represa Cachoeira</Data></Cell><Cell ss:Index="14" ss:MergeAcross="5" ss:StyleID="xls-style-1"><Data ss:Type="String">Represa Atibainha</Data></Cell><Cell ss:Index="20" ss:MergeAcross="5" ss:StyleID="xls-style-1"><Data ss:Type="String">Represa Paiva Castro</Data></Cell><Cell ss:Index="26" ss:MergeAcross="4" ss:StyleID="xls-style-1"><Data ss:Type="String">Represa Águas Claras</Data></Cell><Cell ss:Index="31" ss:MergeAcross="5" ss:StyleID="xls-style-1"><Data ss:Type="String">Represa Jaguari (PBS)</Data></Cell><Cell ss:Index="37" ss:MergeAcross="2" ss:StyleID="xls-style-1"><Data ss:Type="String">Equivalente (Jaguari/Jacareí/Cachoeira/Atibainha)</Data></Cell></Row><Row>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Data</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Nível (m)</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Volume (hm³)</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Volume (%)</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Q Jusante (m³/s)</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Q Natural (m³/s)</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Chuva (mm)</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Nível (m)</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Volume (hm³)</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Volume (%)</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Q Jusante (m³/s)</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Q Natural (m³/s)</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Chuva (mm)</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Nível (m)</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Volume (hm³)</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Volume (%)</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Q Jusante (m³/s)</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Q Natural (m³/s)</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Chuva (mm)</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Nível (m)</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Volume (hm³)</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Volume (%)</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Q Jusante (m³/s)</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Q Natural (m³/s)</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Chuva (mm)</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Nível (m)</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Volume (hm³)</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Volume (%)</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Q Jusante (m³/s)</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Chuva (mm)</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Nível (m)</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Volume (hm³)</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Volume (%)</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Q Jusante (m³/s)</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Q Natural (m³/s)</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Chuva (mm)</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Volume (%)</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Q Jusante (m³/s)</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Q Natural (m³/s)</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">25/05/2023</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">842.94</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">756.0968573923192</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">93.5713005947403</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.25</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">10.752235343156824</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">818.67</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">43.493296287393754</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">62.44608475650897</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">5</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.6158979328703964</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">783.49</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">29.967947141319115</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">31.134824331554473</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.5</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.2006509429503467</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">744.25</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.771372138446285</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">23.270538384087594</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.1</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.9344079247333283</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">860</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.4642265050468879</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">90.16996404730672</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.2</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">622.28</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">753.3069854124915</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">95.00911517460462</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">10.283426377598921</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">85.17503849007498</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">7.75</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">15.568784218977568</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">24/05/2023</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">842.95</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">756.5805042586703</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">93.6311546542706</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.25</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">16.35</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">818.71</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">43.79544590599375</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">62.87990013273538</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">5</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">2.652440687525212</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">783.53</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">30.738319699848205</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">31.935193277967315</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">2.5</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">1.4552375659796084</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">744.22</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">1.6508952937493255</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">21.687832538113618</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.1</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">2.7193880956161696</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">859.51</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.3898819399186888</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">75.72949868860152</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">622.27</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">752.7640973734669</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">94.94064466626551</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">4</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">16.56049946446351</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">85.3348184476745</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">7.75</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">20.45767825350482</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">23/05/2023</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">842.95</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">756.5805042586703</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">93.6311546542706</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.25</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">16.35</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">818.75</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">44.098239830591574</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">63.31464057995855</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">5</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.6859897265290336</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">783.56</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">31.316919974147567</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">32.536322805243536</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.5</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.7880936321109395</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">744.2</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.5707689622880885</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">20.63521189935822</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.1</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.8545569583546744</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">859.77</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.42886917952635895</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">83.30226318073727</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">622.25</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">751.6788702197373</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">94.80377288140764</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">16.552031780446498</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">85.42531576756285</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">7.75</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">21.824083358639975</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">22/05/2023</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">842.95</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">756.5805042586703</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">93.6311546542706</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.25</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">16.35</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">818.79</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">44.401677518219465</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">63.750305318605236</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">5</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">1.8385197783195917</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">783.59</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">31.896223884333182</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">33.13818336623416</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">2.5</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">2.7599491422613225</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">744.14</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">1.3313064410862445</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">17.4893897029757</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.1</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">2.650523682783592</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">859.96</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.4580175038702917</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">88.96394628059859</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">622.23</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">750.5943746739067</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">94.66699336891746</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">4</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">10.272841769882856</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">85.51595143189563</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">7.75</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">20.94846892058092</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">21/05/2023</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">842.95</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">756.5805042586703</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">93.6311546542706</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.25</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">10.750804739096917</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">818.84</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">44.78187900937265</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">64.29618471997827</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3.53</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3.0355543915067074</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">783.62</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">32.476231478441804</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">33.74077501084638</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.52</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.5491077358842062</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">744.09</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.1328003948937422</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">14.881613241363384</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.1</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.7033077713591815</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">859.54</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.3943284222618465</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">76.59317008319158</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">622.22</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">750.0524011449888</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">94.59863820106733</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">16.5393378268065</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.2</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">85.61454108548922</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">5.3</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">15.335466866487831</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">20/05/2023</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">842.96</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">757.0642747292125</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">93.69102401052488</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.25</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">14.65</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">818.86</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">44.93424070994647</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">64.51494007953552</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">3.5</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">3.7913488003439983</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">783.64</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">32.86329417006141</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">34.14290895922949</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">1.5</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">2.958696284341176</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">744.11</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">1.212089003448309</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">15.923228703605167</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.1</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">3.056495653731857</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">859.37</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.36930820831552646</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">71.73331876606842</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">622.2</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">748.9690023567528</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">94.46199701461241</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">4</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">16.53088022672778</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">85.71959781597029</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">5.25</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">21.400045084685175</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">19/05/2023</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">842.96</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">757.0642747292125</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">93.69102401052488</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.25</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">9.149374574126103</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.2</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">818.89</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">45.16308417359675</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">64.84350515845368</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3.5</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4.631912218339195</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.2</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">783.65</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">33.05694281109433</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">34.344097795827885</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.5</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.584677265428013</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">744.12</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.2517901789658765</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">16.444783552935306</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.1</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.7128493467477277</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">859.94</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.4549225468986613</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">88.36279112072316</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">622.18</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">747.8863343051635</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">94.32544799064047</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">10.262269787300653</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">85.76297727455497</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">5.25</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">14.365964057893311</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">18/05/2023</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">842.97</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">757.5481687660078</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">93.7509086588081</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.25</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">11.147944849194406</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">818.91</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">45.315846957932244</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">65.06283637941289</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">3.5</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">2.6800572507175486</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">783.67</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">33.44447469536135</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">34.74671920605101</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">1.5</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">2.820980923797356</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">744.15</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">1.3711215954068727</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">18.012441893295925</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.1</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">3.6340309589246846</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">859.53</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.39284476854008066</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">76.30498963400166</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">622.17</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">747.3452741955407</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">94.25720802570324</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">4</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">16.51820140977442</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">85.86813604802366</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">5.25</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">16.648983023709313</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">17/05/2023</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">842.98</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">758.0321863310376</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">93.81080859441519</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.25</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">16.75</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">818.93</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">45.46877001147025</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">65.28239770903384</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3.5</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.7082034275603455</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">783.68</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">33.63835794354526</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">34.94815178481828</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.5</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.5892462792927944</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">744.17</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.45086612055578</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">19.060046737654694</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.1</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3.2047630313287314</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">859.71</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.419780922345949</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">81.53698736321911</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">622.15</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">746.2637015937362</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">94.12079716282204</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">16.509753896328792</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">85.95344104927555</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">5.25</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">20.04744970685314</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">16/05/2023</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">842.98</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">758.0321863310376</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">93.81080859441519</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.25</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">16.75</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">818.95</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">45.621853235329034</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">65.50218900534578</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">3.5</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">1.8528318220591915</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.4</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">783.7</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">34.02635906501436</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">35.35126070317094</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">1.5</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">2.8212652924462893</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">744.21</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">1.6108129946489775</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">21.161270863413655</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.1</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">2.720084501153379</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">859.53</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.39284476854008066</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">76.30498963400166</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">622.13</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">745.1828588570934</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">93.9844783525098</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">4</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">16.50131043047144</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">86.00899698911154</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">5.25</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">21.42409711450548</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">15/05/2023</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">842.98</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">758.0321863310376</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">93.81080859441519</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.25</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">16.75</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">818.98</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">45.85177816590312</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">65.83230681493625</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3.5</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.7435741319764375</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">783.71</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">34.220476943747</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">35.55293704841587</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.5</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.955360017305839</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">744.22</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.6508952937493255</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">21.687832538113618</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.1</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3.0635920752666728</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">860.09</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.47829058757512366</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">92.90172925705338</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.2</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">622.11</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">744.1027456359006</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">93.84825155065994</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">10.247490188494945</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">86.05253566659344</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">5.25</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">22.448934149282277</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">14/05/2023</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">842.98</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">758.0321863310376</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">93.81080859441519</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.25</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">11.14651556525448</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">819</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">46.005261360900356</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">66.05267237518639</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">3.5</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">3.638093417920923</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">783.72</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">34.41467303825178</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">35.754694654960225</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">1.5</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.7040040723509922</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">744.25</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">1.771372138446285</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">23.270538384087594</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.1</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">3.0535914542008893</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">859.35</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.36639266217165845</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">71.16701182729444</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">622.1</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">743.5629624836147</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">93.78017263903698</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">4</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">16.488652805418326</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">86.08823370490592</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">5.25</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">15.488613055526395</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">13/05/2023</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">842.99</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">758.5163273861995</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">93.87072381263083</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.25</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">16.85</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">819.01</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">46.08206288959199</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">66.1629412023274</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3.5</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.7775076350821095</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">783.74</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">34.80329988640065</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">36.15845366423043</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.5</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3.4403825514844257</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">744.28</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.8921946368033282</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">24.857785086604355</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.1</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3.286816470532436</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">859.66</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.4122494606123358</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">80.07409882419661</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">622.08</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">742.4839428812265</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">93.64408376734967</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">16.48021945314206</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">86.18573093004271</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">5.25</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">22.067890186566537</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">12/05/2023</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">842.99</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">758.5163273861995</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">93.87072381263083</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.25</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">16.85</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">819.04</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">46.312707029920894</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">66.49409162699055</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">3.5</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">3.5802455681445187</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">783.76</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">35.1922396339524</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">36.5625377564266</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">1.5</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">4.2927607314356155</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">744.22</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">1.6508952937493255</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">21.687832538113618</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.1</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">2.5560061816306137</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">859.93</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.45337744525283674</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">88.06267521105669</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">622.06</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">741.4056519204751</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">93.50808679391702</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">4</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">16.47179009455808</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">86.24934682559704</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">5.25</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">24.723006299580135</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">11/05/2023</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">842.99</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">758.5163273861995</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">93.87072381263083</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.25</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">16.85</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.4</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">819.05</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">46.38966821283321</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">66.60458967982488</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.03</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3.8987544318554797</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.6</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">783.78</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">35.58149230675636</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">36.96694695840459</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.5</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.028349491171131</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">12.8</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">744.18</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.4907955596564406</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">19.584600288588387</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.1</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.342265980214865</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">860.18</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.4924862404180137</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">95.6590502901171</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">622.04</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">740.3280892563052</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">93.37218167521975</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">22.691888954317957</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.4</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">86.29721542342753</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3.78</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">22.777103923026612</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10/05/2023</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">842.99</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">758.5163273861995</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">93.87072381263083</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.25</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">16.85</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">819.04</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">46.312707029920894</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">66.49409162699055</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">2</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">2.9899999999999984</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">783.81</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">36.165958110719174</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">37.57417040445416</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">1.5</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">3.393305235657083</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.4</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">744.12</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">1.2517901789658765</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">16.444783552935306</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.1</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">2.838672892125373</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">859.78</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.4303892760361592</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">83.59752216777697</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.2</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">622.01</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">738.7131100506522</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">93.16849612825716</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">4</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">16.45073440023353</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">86.34932355857696</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">3.75</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">23.233305235657085</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">09/05/2023</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">842.99</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">758.5163273861995</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">93.87072381263083</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.25</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">22.45348443474552</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">819.04</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">46.312707029920894</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">66.49409162699055</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.9299999999999997</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">783.82</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">36.3609365383584</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">37.776740806235864</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.5</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3.422399532729777</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">744.14</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.3313064410862445</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">17.4893897029757</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.1</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3.669383420277775</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">859.84</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.4395423828062187</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">85.37539417509389</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.2</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">621.99</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">737.637366598472</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">93.03282045349816</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">16.44231920012411</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">86.36934300635579</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3.75</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">28.805883967475296</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">08/05/2023</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">842.98</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">758.0321863310376</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">93.81080859441519</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.25</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">16.75</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">819.04</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">46.312707029920894</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">66.49409162699055</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">2</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">3.062999999999999</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">783.83</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">36.55599321873055</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">37.97939250771693</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">1.5</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">3.840295231613138</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">744.13</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">1.2915293135742445</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">16.966837071325614</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.1</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">1.4411232602806283</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">860.3</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.5116221597403634</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">99.37595386746487</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">621.97</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">736.5623502195813</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">92.89723647918962</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">4</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">16.433908023349765</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">86.33966121224731</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">3.75</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">23.653295231613136</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">07/05/2023</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">842.98</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">758.0321863310376</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">93.81080859441519</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.25</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">16.75</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">819.04</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">46.312707029920894</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">66.49409162699055</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3.071999999999999</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">783.81</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">36.165958110719174</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">37.57417040445416</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.5</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.084704768386864</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">744.36</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.2160850638859984</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">29.112737759777136</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.1</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">7.763000000000002</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">860.09</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.47829058757512366</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">92.90172925705338</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">621.95</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">735.4880605663639</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">92.76174416148925</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">22.635099892250125</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">86.29961428207513</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3.75</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">21.906704768386863</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">06/05/2023</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">842.98</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">758.0321863310376</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">93.81080859441519</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.25</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">16.45</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">819.04</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">46.312707029920894</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">66.49409162699055</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">2</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">3.8000000000000007</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">783.83</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">36.55599321873055</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">37.97939250771693</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">1.5</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">3.71149378490867</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">744.36</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">2.2160850638859984</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">29.112737759777136</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.1</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">4.75794489671413</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">859.13</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.3347050730177228</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">65.0121095464184</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">621.92</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">733.8779879356734</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">92.55867744503634</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">4</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">16.412897747169524</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">86.33966121224731</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">3.75</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">23.96149378490867</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">05/05/2023</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">842.98</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">758.0321863310376</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">93.81080859441519</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.25</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">22.152055150805595</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">819.04</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">46.312707029920894</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">66.49409162699055</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3.0292137749005477</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">783.84</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">36.75112815571444</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">38.18212551292721</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.5</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3.365587991214465</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">744.32</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.0538306248098976</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">26.981199123395054</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.1</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4.096759795014258</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">860.25</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.5036196308204901</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">97.82156665099255</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.2</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">621.9</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">732.805513570318</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">92.42341407635263</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">16.40450067766856</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">86.35969672965341</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3.75</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">28.546856916920607</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">04/05/2023</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">842.97</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">757.5481687660078</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">93.7509086588081</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.25</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">22.150625425873898</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">819.08</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">46.62079095976949</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">66.93642727035774</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">2</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">4.835340183942579</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">783.85</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">36.94634135327351</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">38.38493982598446</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">1.5</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">5.567</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">744.29</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">1.932545778520666</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">25.387878550193932</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.1</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">2.043682264612847</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">859.86</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.4426058657560833</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">85.97043591537738</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">621.88</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">731.7337647117674</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">92.28824221055011</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">4</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">28.7838263614405</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">86.36167626245042</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">3.75</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">32.552965609816475</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">03/05/2023</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">842.96</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">757.0642747292125</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">93.69102401052488</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.25</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">22.049195260903083</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">819.1</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">46.77507196787685</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">67.15793830150449</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4.932497675668564</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3.6</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">783.85</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">36.94634135327351</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">38.38493982598446</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.5</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3.120682150631012</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">744.24</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.7311748308581159</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">22.742465841415708</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.1</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3.1710187537579593</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">859.9</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.44875161715628165</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">87.16416823521466</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3.8</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">621.84</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">729.592442114139</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">92.01817281089804</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">22.565857540966977</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">86.32783318096216</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3.75</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">30.10237508720266</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">02/05/2023</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">842.95</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">756.5805042586703</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">93.6311546542706</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.25</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">22.547764656843178</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">819.12</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">46.929512168699084</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">67.3796778957314</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">2</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">3.9913006435452036</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">5.4</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">783.86</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">37.14163281545899</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">38.58783545109766</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">1.5</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">4.560776262149419</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">744.16</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">1.4109748105334283</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">18.53599408890924</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.1</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">3.2131487370021747</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">859.67</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.4137527064235118</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">80.3660847820736</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.4</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">621.81</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">727.9883520225994</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">91.81586062846941</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">4</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">22.547005047029987</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">1.2</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">86.3140707204671</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">3.75</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">31.099841562537797</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">01/05/2023</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">842.94</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">756.0968573923192</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">93.5713005947403</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.25</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">22.346333614716567</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">819.07</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">46.54371019309678</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">66.82575752353205</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3.253940445801323</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">783.87</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">37.33700254640928</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">38.79081239256635</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.5</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.4408346621646455</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">744.18</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.4907955596564406</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">19.584600288588387</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.1</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3.4819938183693857</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">860.2</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.4956589101432396</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">96.27530014217736</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">621.78</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">726.385890786536</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">91.61375388170055</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">22.528166172607733</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">86.2448595173359</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3.75</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">28.041108722682537</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">30/04/2023</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">842.93</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">755.6133341680077</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">93.51146183661791</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.25</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">16.75</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">819.03</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">46.235785738579544</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">66.38365084901544</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">2</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">3.2155504269656032</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">783.89</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">37.727976831598255</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">39.197010242225865</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">1.5</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">4.722058299118483</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">744.22</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">1.6508952937493255</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">21.687832538113618</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.1</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">4.1501835294675615</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">859.83</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.43801298109496534</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">85.07832777363178</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">621.75</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">724.7850572292227</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">91.41185242217954</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">4</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">22.509340933869005</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">86.2037408341674</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">3.75</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">24.687608726084086</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">29/04/2023</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">842.93</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">755.6133341680077</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">93.51146183661791</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.25</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">22.3449021352838</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.2</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">818.99</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">45.928499781689716</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">65.9424609060497</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3.750500629848762</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">783.9</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">37.92358139455442</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">39.400231159473606</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.5</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4.507152208839791</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.4</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">744.28</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.8921946368033282</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">24.857785086604355</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.1</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">5.615655161402923</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.2</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">859.36</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.36784970320501553</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">71.45002310770377</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">621.72</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">723.1858501725364</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">91.21015610131833</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">22.49052929308662</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.4</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">86.19227392543912</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3.75</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">30.602554973972353</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">28/04/2023</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">842.92</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">755.1299346235191</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">93.45163838457938</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.25</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">33.226113172060685</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">10.6</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">818.97</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">45.77509652727078</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">65.72221012155937</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">2</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">3.5380551663243915</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">9</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">783.91</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">38.11926424371066</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">39.60353341119099</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">1.5</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">7.058</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">15.2</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">744.24</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">1.7311748308581159</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">22.742465841415708</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.1</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">3.246549404745686</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">6.4</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">859.71</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.419780922345949</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">81.53698736321911</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">4.2</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">621.69</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">721.5882684416138</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">91.00866477093996</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">4</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">28.624800070240678</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">11.6</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">86.1469818492583</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">3.75</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">43.822168338385076</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">27/04/2023</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">842.89</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">753.680478445453</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">93.2722599115561</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.25</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">21.739171864990304</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.2</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">819</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">46.005261360900356</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">66.05267237518639</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.919390618404025</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">783.91</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">38.11926424371066</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">39.60353341119099</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.5</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4.681000000000001</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.2</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">744.2</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.5707689622880885</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">20.63521189935822</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.1</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">5.146666900252637</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.2</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">859.81</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.43495884536623963</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">84.48510160954842</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.4</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">621.65</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">719.460685715545</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">90.74032828106408</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">16.29987813901432</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">86.02179087458128</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3.75</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">29.339562483394328</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">26/04/2023</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">842.88</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">753.1975739963179</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">93.21249773039271</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.25</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">21.637738213966564</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">818.93</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">45.46877001147025</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">65.28239770903384</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.4</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">1.4743333686248623</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">783.91</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">38.11926424371066</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">39.60353341119099</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.35</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">2.043999999999999</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">744.42</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">2.460631342106261</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">32.32534533697537</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.1</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">5.676711328468374</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">859.36</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.36784970320501553</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">71.45002310770377</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">621.63</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">718.3979762443341</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">90.60629648725013</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">4</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">22.434176139029052</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">85.91712421374889</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">1</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">25.156071582591427</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">25/04/2023</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">842.87</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">752.7147934146312</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">93.15275087853287</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.25</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">16.81</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">818.94</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">45.54529160842106</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">65.39226462041529</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.25</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4.011220846646726</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">783.91</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">38.11926424371066</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">39.60353341119099</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.25</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.825999999999997</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">744.45</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.5834306833265934</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">33.938561849410135</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.1</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">5.247147886323415</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">860.17</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.4909023829770074</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">95.35140657102963</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">621.6</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">716.805263425922</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">90.40541923729111</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">22.415419003253596</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">85.8754114938953</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.75</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">23.64722084664672</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">24/04/2023</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">842.87</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">752.7147934146312</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">93.15275087853287</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.25</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">20.25</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">818.97</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">45.77509652727078</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">65.72221012155937</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.25</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">5.062000000000001</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">783.91</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">38.11926424371066</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">39.60353341119099</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.25</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">4.4979999999999976</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">744.41</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">2.4197763059482504</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">31.78863220568938</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.1</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">2.6997689715296915</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">859.67</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.4137527064235118</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">80.3660847820736</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">621.57</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">715.2141712240409</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">90.20474638387377</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">4</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">22.39667549238247</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">85.8990067583968</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.75</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">29.81</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">23/04/2023</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">842.87</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">752.7147934146312</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">93.15275087853287</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.25</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">25.836304131453907</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">818.97</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">45.77509652727078</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">65.72221012155937</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.25</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">5.755649212288759</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">783.91</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">38.11926424371066</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">39.60353341119099</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.25</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3.3012460655450724</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">744.3</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.9729354668080852</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">25.918478400566492</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.1</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3.716174262438159</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">859.69</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.41676376363841827</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">80.95094350483238</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">621.54</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">713.6246984614991</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">90.00427777852751</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">22.37794559563648</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">85.8990067583968</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.75</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">34.89319940928774</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">22/04/2023</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">842.86</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">752.2321367376735</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">93.09301936059026</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.25</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">25.834869618403665</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">818.95</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">45.621853235329034</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">65.50218900534578</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.25</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">5.033948585234214</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">783.92</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">38.315025383647566</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">39.806917002136956</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.25</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">3.397428881551644</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">744.16</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">1.4109748105334283</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">18.53599408890924</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.1</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">2.332264063964761</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">859.52</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.39136260837702674</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">76.01709928917651</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">621.51</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">712.0368439620361</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">89.8040132728992</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">4</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">22.359229326489622</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">85.85381541898278</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.75</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">34.26624708518952</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">21/04/2023</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">842.85</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">751.7496040026435</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">93.03330318116848</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.25</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">36.99599748570776</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">818.7</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">43.7198480775648</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">62.771359534425955</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.25</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">7.452632542282096</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">784.01</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">40.080399528281504</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">41.6410304171617</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.25</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">7.385000000000001</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">744.15</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.3711215954068727</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">18.012441893295925</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.1</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3.5479768313679934</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">859.09</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.3290185162559427</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">63.907569815945905</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">621.48</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">710.4506065482274</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">89.60395271848883</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">33.55716082464507</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">85.79024266135553</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.75</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">51.833630027989855</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">20/04/2023</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">842.82</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">750.3027498198783</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">92.85424671991139</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.25</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">42.55788751100239</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">818.39</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">41.396324625911625</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">59.435329507248525</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.25</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">12.155184560071485</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">784.01</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">40.080399528281504</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">41.6410304171617</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.25</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">10.137571118448358</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">744.46</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">2.624441997176678</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">34.477328002730886</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.1</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">22.308608765485104</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">859.81</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.43495884536623963</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">84.48510160954842</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">621.43</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">707.810467852978</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">89.2709712829901</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">4</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">64.95871849673264</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">85.40311840831542</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.75</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">64.85064318952223</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">19/04/2023</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">842.78</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">748.3753483389278</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">92.61571978837145</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.25</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">65.17672783565804</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">48.6</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">818.14</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">39.55080467992145</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">56.785599438375044</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.68</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">19.26059372660826</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">45.8</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">783.92</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">38.315025383647566</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">39.806917002136956</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.55</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">22.642353584434815</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">30</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">744.53</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.9126197998387653</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">38.26312347322539</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.1</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">36.87813479789493</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">80</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">860.15</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.4877396078619194</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">94.73707861836697</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">70.2</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">621.33</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">702.5436345748603</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">88.606704019821</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">70.81546650792437</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">84.83447283905222</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.48</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">107.07967514670112</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">18/04/2023</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">842.7</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">744.5265110539269</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">92.13940421184978</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.25</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">41.972277564145855</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">22.8</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">817.93</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">38.020090981942495</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">54.58785667152828</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">2</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">3.318121609860497</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">783.76</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">35.1922396339524</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">36.5625377564266</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">1.5</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">7.66981753181661</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">744.1</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">1.1724257533006437</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">15.402172080343334</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.1</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">4.468486570907398</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">7.6</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">859.4</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.37369252435466394</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">72.58491516421273</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">9.8</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">621.22</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">696.7707782685757</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">87.87861576322543</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">4</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">28.23454933536791</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">83.96149377014261</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">3.75</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">52.960216705822965</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">17/04/2023</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">842.68</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">743.5655462723846</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">92.02047933660987</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.25</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">24.98958206192654</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">817.9</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">37.80287087485055</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">54.27597998302321</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.9071070752172865</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">783.69</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">33.83231939920344</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">35.149665616264</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.5</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3.213569781736499</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.4</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">744.13</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.2915293135742445</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">16.966837071325614</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.1</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.5435289703798176</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">859.64</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.40924752419984933</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">79.49101169874507</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">621.18</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">694.6769132059999</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">87.614531836297</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">22.154249396670988</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">83.70089333557141</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3.75</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">30.110258918880326</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">16/04/2023</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">842.69</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">744.0459663822342</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">92.07993406661038</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.25</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">30.75</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.2</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">817.89</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">37.730544823551774</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">54.1721368827058</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">2</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">2.5048143931833957</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.4</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">783.64</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">32.86329417006141</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">34.14290895922949</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">1.5</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">3.852943121854473</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.6</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">744.16</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">1.4109748105334283</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">18.53599408890924</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.1</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">3.509264063964764</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">1.2</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">859.82</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.4364851360646478</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">84.78156373720591</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">2.2</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">621.15</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">693.1083860581275</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">87.41670494854407</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">4</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">22.135696599428126</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">83.64329961911187</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">3.75</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">37.10775751503787</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">15/04/2023</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">842.69</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">744.0459663822342</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">92.07993406661038</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.25</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">41.8693937744042</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">23.8</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">817.87</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">37.58601365998073</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">53.96462432190388</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4.082031911826178</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">18.6</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">783.59</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">31.896223884333182</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">33.13818336623416</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.5</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">8.343113268733806</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">25.2</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">744.15</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.3711215954068727</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">18.012441893295925</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.1</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">5.035823545377642</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">12.8</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">859.91</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.450291982901854</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">87.4633642578199</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">13.8</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">621.12</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">691.5414618719369</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">87.21908023065546</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">40.21578925015422</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.4</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">83.52916572525201</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3.75</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">54.29453895496418</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">14/04/2023</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">842.67</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">743.0852507601257</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">91.96104002627222</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.25</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">25.191024163669255</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">817.83</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">37.29743490279895</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">53.55029349237038</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">2</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">2.3772188136075743</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">783.52</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">30.54560929791458</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">31.73497921316092</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">1.5</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">5.106650447338296</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">744.14</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">1.3313064410862445</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">17.4893897029757</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.1</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">3.4069123906575935</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">859.83</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.43801298109496534</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">85.07832777363178</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">621.06</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">688.4124176807236</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">86.82443671120552</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">4</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">22.080119900534758</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">83.26221956921333</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">3.75</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">32.67489342461512</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">13/04/2023</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">842.68</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">743.5655462723846</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">92.02047933660987</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.25</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">30.75</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.8</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">817.81</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">37.15338719730325</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">53.3434750629985</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.4989104183592126</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.6</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">783.47</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">29.583229899264552</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">30.735127158698283</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.5</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4.13363484477053</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">744.16</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.4109748105334283</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">18.53599408890924</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.1</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.838264063964761</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">8.2</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">860.02</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.46734059136439676</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">90.77483483395346</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">7.8</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">621.03</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">686.8502953213174</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">86.62741761270296</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">22.061621597519625</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">83.19793138688344</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3.75</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">36.38254526312974</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">12/04/2023</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">842.68</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">743.5655462723846</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">92.02047933660987</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.25</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">25.18958206192654</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">817.8</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">37.08142373715702</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">53.24015255780209</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">2</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">2.3324233039823046</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">783.43</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">28.814733448676378</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">29.936707371194853</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">1.5</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">4.012159481170409</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">744.15</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">1.3711215954068727</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">18.012441893295925</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.1</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">2.662999999999999</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">859.83</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.43801298109496534</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">85.07832777363178</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">621</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">685.2897712152917</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">86.43060009024104</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">4</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">28.053410506220878</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">83.11163700295143</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">3.75</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">31.534164847079253</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">11/04/2023</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">842.69</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">744.0459663822342</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">92.07993406661038</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.25</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">25.188140373927602</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">817.78</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">36.937617563692946</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">53.033680911291135</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.2835605394235685</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">783.39</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">28.047487669503255</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">29.139586953135073</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.5</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3.1866203754131597</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">744.15</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.3711215954068727</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">18.012441893295925</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.1</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.6746549995204134</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">859.77</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.42886917952635895</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">83.30226318073727</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">620.96</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">683.2115565475542</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">86.1684900334539</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">28.02058112407017</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">83.06742179518214</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3.75</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">30.65832128876433</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10/04/2023</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">842.7</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">744.5265110539269</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">92.13940421184978</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.25</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">30.75</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">817.76</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">36.79397233308675</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">52.82744034065169</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">2</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">3.053349793464822</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.4</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">783.36</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">27.472874069067558</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">28.542599330869134</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">1.5</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">5.131478253499515</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.4</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">744.11</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">1.212089003448309</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">15.923228703605167</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.1</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">2.7602615173457052</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">860.22</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.498838206667197</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">96.89283716374835</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">620.92</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">681.1361783384345</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">85.90673771850206</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">4</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">27.987784022918074</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">83.04301444788223</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">3.75</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">38.93482804696434</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">09/04/2023</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">842.7</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">744.5265110539269</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">92.13940421184978</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.25</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">36.3118596260724</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">817.73</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">36.57880611093139</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">52.51851254505148</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3.823954028794091</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">783.33</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">26.8989639479652</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">27.946342579668904</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.5</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">6.492703439645741</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">744.04</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.93524080834964</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">12.286270432228186</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.1</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.6196837170304725</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">859.46</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.38250090937782066</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">74.29582945328949</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.8</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">620.88</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">679.0636337988544</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">85.64534279361942</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">39.92025209703327</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">82.96199588168166</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3.75</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">46.62851709451223</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">08/04/2023</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">842.69</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">744.0459663822342</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">92.07993406661038</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.25</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">36.11041793807346</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">19.2</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">817.69</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">36.29248048284358</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">52.10741667589992</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">2</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">3.9625175176359435</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">11.6</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">783.28</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">25.944010370779807</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">26.954205489655735</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">1.5</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">5.70255338076592</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">4.4</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">744.06</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">1.014151335198207</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">13.322919030274225</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.1</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">5.28613570213864</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">5.2</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">859.05</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.3233547683191661</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">62.80746040323461</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">7</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">620.82</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">675.9601240176708</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">85.25391974304922</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">4</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">39.8466402529437</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">1.6</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">82.78520728200604</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">3.75</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">45.775488836475326</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">07/04/2023</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">842.68</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">743.5655462723846</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">92.02047933660987</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.25</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">30.45</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.2</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">817.65</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">36.006797369319834</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">51.697243305670035</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.5384682533388379</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">783.18</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">24.03996575868163</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">24.976022124690353</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.5</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3.195653478362292</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">744.16</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.4109748105334283</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">18.53599408890924</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.1</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.0479844587127864</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">859.54</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.3943284222618465</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">76.59317008319158</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.4</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">620.76</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">672.8629742998164</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">84.86329884087415</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">21.895749737767296</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.6</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">82.5110493364259</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3.75</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">35.184121731701126</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">06/04/2023</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">842.68</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">743.5655462723846</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">92.02047933660987</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.25</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">19.32772243585414</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">817.64</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">35.93547691223136</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">51.59484400075668</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">2</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">2.5410040322060286</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">783.16</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">23.66009489815113</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">24.581360039378993</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">1.5</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">3.8291939603016925</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">744.1</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">1.1724257533006437</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">15.402172080343334</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.1</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">2.820756296401925</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">859.54</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.3943284222618465</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">76.59317008319158</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">620.73</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">671.3167815224733</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">84.66828882436104</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">4</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">21.877387651457898</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">82.46472318060081</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">3.75</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">25.69792042836186</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">05/04/2023</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">842.7</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">744.5265110539269</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">92.13940421184978</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.25</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">24.886699100427712</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">817.63</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">35.86419656384876</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">51.4925022824569</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.63</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.8152279531919895</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">783.13</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">23.090874939981063</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">23.989976074369114</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.04</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3.2762254027792785</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">744.05</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.9746772092915172</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">12.804346934579163</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.1</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.7416739621023218</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">859.24</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.3504613913853446</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">68.07256957030884</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">620.7</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">669.7721752293874</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">84.47347889953488</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">27.807977165604285</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">82.4976269325682</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.92</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">29.97815245639898</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">04/04/2023</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">842.71</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">745.00718025165</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">92.19888976789599</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.25</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">25.185258242412424</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">817.6</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">35.65059606869297</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">51.18582250044192</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.5</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">1.3480542914100466</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">783.08</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">22.143738665180933</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">23.005960673017636</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">1</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">3.9888057869548526</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">744.12</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">1.2517901789658765</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">16.444783552935306</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.1</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">3.598999999999999</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">859.12</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.3332812910814684</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">64.73555841328073</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">620.66</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">667.7151660022791</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">84.2140433302941</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">4</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">21.834595737103545</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">82.4278008630217</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">1.75</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">30.522118320777324</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">03/04/2023</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">842.72</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">745.4879739395055</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">92.25839073030647</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.25</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">25.18381780082255</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">817.57</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">35.43735617791514</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">50.87966046100965</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.5</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.115252573302463</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">783.02</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">21.009755445188034</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">21.827822971996074</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.5307682586116336</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">744.12</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.2517901789658765</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">16.444783552935306</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.1</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3.2245043462681444</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">860.16</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.48932017312325593</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">95.04408287434917</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">620.63</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">666.1742569305934</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">84.01969970903428</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">21.816279060854058</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">82.33884005440241</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.75</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">28.829838632736646</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">02/04/2023</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">842.73</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">745.9688920815145</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">92.31790709462861</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.25</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">31.25</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">817.53</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">35.15359675558181</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">50.47224905626355</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.5</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">2.3889028922544613</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.2</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">782.98</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">20.25533066764399</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">21.04402277342258</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">1</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">5.962494409608443</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.4</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">744.11</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">1.212089003448309</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">15.923228703605167</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.1</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">3.313551966135004</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.2</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">859.82</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.4364851360646478</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">84.78156373720591</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">620.6</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">664.6349304197356</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">83.8255556846279</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">4</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">27.726569653027344</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">0.2</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">82.28162265410074</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">1.75</Data></Cell>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="Number">39.6013973018629</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">01/04/2023</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">842.73</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">745.9688920815145</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">92.31790709462861</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.25</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">21.332377776593635</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">817.48</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">34.799797145691024</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">49.964276510791905</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.5</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3.6913948468352515</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">11</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">782.92</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">19.12603995065382</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">19.870760289778314</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">5.332554589490428</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">11.2</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">744.13</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.2915293135742445</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">16.966837071325614</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.1</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">5.697079795496492</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">13</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">859.99</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.462671862303895</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">89.86799490354161</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">16</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">620.56</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">662.584954801714</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">83.56700721319552</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">33.612503583646486</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">16.8</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">82.12934606786607</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.75</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">30.356327212919314</Data></Cell>
+			</Row>
+		</Table>
+	</Worksheet>
+</Workbook>
